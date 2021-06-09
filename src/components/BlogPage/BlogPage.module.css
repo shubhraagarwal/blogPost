@@ -1,0 +1,49 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 25px;
+}
+.blogs > h2 {
+  font-size: 5vw;
+  text-align: center;
+}
+.images {
+  width: 60% !important;
+  height: auto !important;
+  margin-left: 25%;
+}
+
+.blogs > img {
+  width: 50vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.blogs > .p_more > p {
+  font-size: 2.1vw;
+  font-weight: normal;
+  color: #1d2229;
+  white-space: break-spaces;
+}
+.p_more > img {
+  width: 80%;
+  height: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .blogs > .p_more > p {
+    font-size: 20px;
+    color: #1d2229;
+  }
+  .blogs > h2 {
+    font-size: 6vw;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .blogs > .p_more > p {
+    font-size: 25px;
+  }
+}
